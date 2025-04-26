@@ -1,0 +1,265 @@
+body{
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.80857;
+    font-weight: normal;
+    
+}
+.header {
+    width: 100%;
+    background: #eae9e4;
+    padding: 20px 30px;
+}
+.d_flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo a {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 40px;
+}
+.navigation.navbar {
+    padding: 0px;
+}
+
+.navigation.navbar-dark .navbar-nav .nav-link {
+    padding: 0 25px;
+    color: #eda911;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,.navbar-dark .navbar-nav .nav-link:hover {
+    color: #5a2f27;
+}
+
+.navbar-expand-md .navbar-nav {
+    padding-right: 10px;
+}
+.Call a {
+    display: inline-block;
+    padding: 7px 0;
+    color: #5a2f27;
+    font-size: 20px;
+    text-decoration: none
+    
+}
+.banner_main {
+    background: #eae9e4;
+    padding: 20px 0px 90px 0px;
+}
+
+.text-bg {
+    text-align: left;
+}
+
+.text-bg h1 {
+    color: #5a2f27;
+    font-size: 90px;
+    line-height: 120px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.text-bg p {
+    color: #5a2f27;
+    font-size: 17px;
+    line-height: 30px;
+    padding: 25px 0px 60px 0px;
+}
+.read_more {
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.main_form {
+    padding: 60px 50px 80px 50px;
+    background: #5a2f27;
+    border-radius: 10px;
+    border-top: #eda911 solid 15px;
+}
+
+.main_form .contactus {
+    border: inherit;
+    margin-bottom: 70px;
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    color: #fbfaf8;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: #fff solid ;
+}
+
+button {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}         
+
+.main_form .send_btn {
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 13px 0px;
+    margin: 0 auto;
+    max-width: 200px;
+    width: 100%;
+    display: block;
+    border-radius: 35px;
+    
+}
+
+.main_form .send_btn:hover {
+    background-color: #eda911;
+   
+}
+
+
+.food {
+    background: #fff;
+    margin: 90px 0;
+}
+
+.food .titlepage span {
+    font-size: 17px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 501;
+    display: block;
+    padding: 0px 49px;
+}
+
+.food .food_box {
+    text-align: center;
+    background: #5a2f27;
+    margin-bottom: 30px;
+    margin-top: 116px;
+    padding: 0px 30px 30px 30px;
+}
+
+.food .food_box:hover {
+    background: #fdbe31 ;
+}
+
+.food_box i img {
+    margin-top: -116px;
+}
+
+.food_boxs i img {
+    margin-top: -116px;
+}
+.food .food_box h4 {
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 501;
+    padding-top: 30px;
+    padding-bottom: 0;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.food .food_box p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 33px;
+}
+
+.works {
+    background: #fff;
+    margin: 90px 0;
+}
+.works .titlepage h2 {
+    padding-bottom: 0;
+}
+
+.yellow {
+    color: #f6b219;
+    font-weight: bold;
+}
+.titlepage {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.titlepage h2 {
+    font-size: 45px;
+    color: #5a2f27;
+    line-height: 55px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.works .works_box {
+    margin-top: 30px;
+    background: #eda911;
+    margin-bottom: 30px;
+    padding: 30px ;
+    border-radius: 0px 60px ;
+}
+
+
+
+
+.footer {
+    background: #fff;
+    padding-top: 85px;
+    text-align: center;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .cont p {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #eda911;
+}
+.cont h3 {
+    color: #0e0d0d;
+    font-size: 35px;
+   
+}
+
+.sub_btn {
+    display: block;
+    padding: 10px 20px;
+    background-color:#eda911;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 13px 0px;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.copyright {
+    margin-top: 90px;
+    padding: 20px 0px;
+    background-color: #582e26;
+}
+
+.copyright p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
